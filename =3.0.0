@@ -1,0 +1,5 @@
+GLOB sdist-make: /Users/shamalsiwan/blockchain/certissuernew100318/cert-issuer/setup.py
+py36 create: /Users/shamalsiwan/blockchain/certissuernew100318/cert-issuer/.tox/py36
+ERROR: InterpreterNotFound: python3.6
+___________________________________ summary ____________________________________
+ERROR:  py36: InterpreterNotFound: python3.6
