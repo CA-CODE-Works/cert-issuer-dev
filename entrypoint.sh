@@ -22,6 +22,6 @@ echo
   exec gosu bitcoin "$@"
 fi
 
-bitcoind -daemon --testnet
+# bitcoind -daemon --testnet
 echo
 exec "$@"
