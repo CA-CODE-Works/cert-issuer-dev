@@ -23,7 +23,7 @@ if [ "$1" = "bitcoind" ] || [ "$1" = "bitcoin-cli" ] || [ "$1" = "bitcoin-tx" ];
 fi
 
 
-bitcoind -regtest -daemon
+bitcoind -testnet -daemon
 
 echo
 exec "$@"

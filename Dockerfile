@@ -32,6 +32,7 @@ RUN apk add --update \
     && sed -i.bak s/==1\.0b1/\>=1\.0\.2/g /usr/lib/python3.*/site-packages/merkletools-1.0.2-py3.*.egg-info/requires.txt
 
 ENV PYTHONPATH=/usr/lib/python3.6/site-packages
+ENV BITCOIN_DATA=~/.bitcoin
 WORKDIR /cert-issuer
 RUN pip3 install flask
 
