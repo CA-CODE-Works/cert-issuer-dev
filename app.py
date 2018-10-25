@@ -31,6 +31,10 @@ def hello_world():
     return ""
 
 
+@app.route('/wallet', methods=['POST'])
+def wallet():
+    call(["/bin/bash", "wallet.sh"])
+    return ""
 
 
 if __name__ == "__main__":
