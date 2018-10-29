@@ -31,7 +31,7 @@ def hello_world():
     return ""
 
 
-@app.route('/wallet', methods=['POST'])
+@app.route('/wallet')
 def wallet():
     call(["/bin/bash", "wallet.sh"])
     return ""
